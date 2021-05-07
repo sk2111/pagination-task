@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  padding: 20px;
+  padding: 10px;
 }
 
 .title {
@@ -22,8 +22,10 @@ table {
   border-collapse: collapse;
   font-family: arial, sans-serif;
   height: 600px;
-  margin-bottom: 10px;
-  width: 100%;
+  margin: 10px auto 20px auto;
+  table-layout: fixed;
+  width: 1100px;
+  word-break: break-all;
 }
 
 td,
@@ -35,6 +37,10 @@ th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+td {
+  width: 100px;
 }
 .button-container {
   text-align: center;
